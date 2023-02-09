@@ -43,7 +43,7 @@ const Result = ({ result }) => {
       <Image src={`https://cryptocompare.com/${IMAGEURL}`} alt="image-cripto" />
       <div>
         <Price>
-          EL precio es de: <span>{PRICE}</span>
+          El precio es de: <span>{PRICE}</span>
         </Price>
         <Text>
           Precio más alto del día: <span>{HIGHDAY}</span>
