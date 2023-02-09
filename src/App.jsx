@@ -27,6 +27,7 @@ const Image = styled.img`
   margin: 100px auto 0 auto;
 
   @media (max-width: 992px) {
+    max-width: 250px;
     margin: 10px auto 0 auto;
   }
 `;
@@ -47,7 +48,8 @@ const Heading = styled.h1`
   }
 
   @media (max-width: 992px) {
-    margin-top: 5px;
+    font-size: 34px;
+    margin-top: -20px;
   }
 `;
 
